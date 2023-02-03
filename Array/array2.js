@@ -16,5 +16,23 @@ function arrsum(a, n){
     // return -1;
     return false;
 }
-
+let time1=performance.now()
 console.log(arrsum(arr, n, k))
+let time2=performance.now()
+
+console.log(`run time ${time1-time2}`)//run time -3.9916000068187714
+
+function hasPairWithSum(arr, n, k){
+    const mnset=new Set();
+    for(let i=0; i<n; i++){
+        if(mnset.has(arr[i])){
+            return true;
+        }
+        mnset.add(k-arr[i]);
+    }
+    return false;
+}
+let time3=performance.now()
+console.log(hasPairWithSum(arr, n, k))
+let time4=performance.now()
+console.log(`run time ${time3-time4}`)//run time -0.8420999944210052
