@@ -5,5 +5,15 @@ for(let i=0; i<arr.length; i++){
        console.log(arr[x])
 }
 
-
+function getElement(){
+    let el=document.getElementById("element").value;
+    if(el<arr.length){
+        alert(arr[el])
+    }
+    else{
+        alert("invalat data")
+    }
+    
+    alert("function call")
+}
 console.log(arr[x])
