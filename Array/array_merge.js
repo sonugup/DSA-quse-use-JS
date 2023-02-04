@@ -4,13 +4,13 @@ let data2=[20, 40, 60, 5, 10, 70, 80, 99];
 
 
 let data=[];
-for(let i=0; i<data1.length; i++){
-    data[i]=data1[i]
-}
+// for(let i=0; i<data1.length; i++){
+//     data[i]=data1[i]
+// }
 
-for(let i=0; i< data2.length; i++){
-    data[data1.length+i]=data2[i]
-}
+// for(let i=0; i< data2.length; i++){
+//     data[data1.length+i]=data2[i]
+// }
 
 console.log(data)
 
