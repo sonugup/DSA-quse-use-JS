@@ -27,4 +27,6 @@ console.log(sumOfnNumer1(n))
 
 let time4=performance.now()
 
+ 
+
 console.log(`run time ${time3-time4}`)//run time -0.2158999890089035
