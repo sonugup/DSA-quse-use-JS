@@ -1,6 +1,7 @@
 
 function insertEle(){
     let data=[4, 5, 7, 6, 8, 2, 9, 3, 5, 12, 32, 45];
+    
     let newEle=document.getElementById('newEle').value;
 
     let position=document.getElementById('position').value;
@@ -15,6 +16,6 @@ function insertEle(){
         
     }
     let newdata=document.getElementById("el").innerHTML=data;
-    console.warn(`New Array = ${newdata.join(" ")}`)
+    data.append(`New Array = ${newdata.join(" ")}`)
     console.log(data)
 }
