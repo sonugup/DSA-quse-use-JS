@@ -6,4 +6,5 @@ function moveTwoAhead(num) {
         i=i+2;
     }
 }
+
 moveTwoAhead(6)

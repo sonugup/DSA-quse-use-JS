@@ -7,5 +7,6 @@ function SumBelowN(N) {
         i++;
     }
     console.log(sum)
+    
 }
 SumBelowN(9)

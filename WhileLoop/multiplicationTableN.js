@@ -6,4 +6,5 @@ function multiplicationTableN(n){
         i++;
     }
 }
+
 multiplicationTableN(2)

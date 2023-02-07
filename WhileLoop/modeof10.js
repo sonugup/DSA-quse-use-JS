@@ -8,3 +8,4 @@ function modeof10(num) {
      }
 }
 modeof10(9)
+

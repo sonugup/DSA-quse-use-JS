@@ -7,4 +7,5 @@ function loop1toN(num) {
         i++;
     }
 }
+
 loop1toN(49)
