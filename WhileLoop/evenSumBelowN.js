@@ -11,4 +11,3 @@ function evenSumBelowN(num) {
     console.log(sum)
 }
 evenSumBelowN(9)
-

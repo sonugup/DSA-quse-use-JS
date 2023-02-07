@@ -6,5 +6,4 @@ function fromAtoB(max, min) {
     i++;
   }
 }
-
 fromAtoB(24, 4);
