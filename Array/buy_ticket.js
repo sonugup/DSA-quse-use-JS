@@ -1,6 +1,5 @@
 var timeRequiredToBuy =  (tickets, k) => {
-  let count = 0,
-    i = 0;
+  let count = 0,i = 0;
   while (tickets[k] > 0) {
     for (let j = 0; j < tickets.length; j++) {
       if (tickets[j] > 0) {
