@@ -16,7 +16,6 @@ var timeRequiredToBuy =  (tickets, k) => {
   return count;
 };
 
-
-let tickets = [2, 3, 2];
-let k = 2;
-console.log(timeRequiredToBuy(tickets, k));
+let tickets=[2,3,2]
+let k=2
+console.log(timeRequiredToBuy(tickets, k))
