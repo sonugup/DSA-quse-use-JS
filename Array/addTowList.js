@@ -1,6 +1,9 @@
 
 // 2. Add Two Numbers
 
+// Input: l1 = [2,4,3], l2 = [5,6,4]
+// Output: [7,0,8]
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
