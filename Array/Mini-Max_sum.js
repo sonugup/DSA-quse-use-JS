@@ -12,3 +12,4 @@ const maxSum = arr.slice(1).reduce((acc, curr) => acc + curr);
 console.log(`${minSum} ${maxSum}`);
 }
 
+const arr=[3, 4, 5,6 ,7]
