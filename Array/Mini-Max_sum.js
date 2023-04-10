@@ -5,7 +5,6 @@
 
 
 function miniMaxSum(arr) {
-    // Write your code here
    arr.sort((a, b) => a - b);
 const minSum = arr.slice(0, 4).reduce((acc, curr) => acc + curr);
 const maxSum = arr.slice(1).reduce((acc, curr) => acc + curr);
