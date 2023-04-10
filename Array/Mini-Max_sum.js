@@ -15,3 +15,4 @@ console.log(`${minSum} ${maxSum}`);
 const arr=[3, 4, 5,6 ,7]
 
 miniMaxSum(arr)
+
