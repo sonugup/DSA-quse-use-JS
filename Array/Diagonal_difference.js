@@ -17,3 +17,7 @@ for(let i=0; i<arr.length; i++){
 let sum1=Math.abs(sum2-sum)
 return sum1
 }
+
+const arr=[1 2 3
+           4 5 6
+           9 8 9  ]
