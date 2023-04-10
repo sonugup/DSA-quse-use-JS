@@ -17,8 +17,8 @@ for(let i=0; i<arr.length; i++){
   }
 }
     
-let sum1=Math.abs(sum2-sum)
-return sum1
+ let sum1=Math.abs(sum2-sum)
+ return sum1
 }
 
 const arr=[1 2 3
