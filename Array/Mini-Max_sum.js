@@ -3,7 +3,7 @@
 // Then print the respective minimum and maximum values as a single 
 // line of two space-separated long integers.
 
-output = 18 22
+// output = 18 22
 
 function miniMaxSum(arr) {
    arr.sort((a, b) => a - b);
