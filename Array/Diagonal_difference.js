@@ -16,6 +16,7 @@ for(let i=0; i<arr.length; i++){
     sum2+=arr[i][j]
   }
 }
+    
 let sum1=Math.abs(sum2-sum)
 return sum1
 }
