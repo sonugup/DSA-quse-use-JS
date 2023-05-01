@@ -59,3 +59,7 @@ var fourSum = function(nums, target) {
     return ans
 
 };
+
+let nums = [1,0,-1,0,-2,2], target = 0;
+
+fourSum(nums, target)
