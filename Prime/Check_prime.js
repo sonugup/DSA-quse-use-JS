@@ -14,3 +14,13 @@ function identifyPrime(num) {
     }
 }
 identifyPrime(17)
+
+/*
+
+Input: 17;
+
+Output:
+
+Yes
+
+*/
