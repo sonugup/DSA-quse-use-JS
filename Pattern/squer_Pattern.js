@@ -16,3 +16,5 @@ function yourFirstPattern(n) {
         
     }
 }
+yourFirstPattern(6)
+
