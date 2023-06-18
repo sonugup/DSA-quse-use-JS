@@ -22,3 +22,5 @@ function isPrime(n) {
 
   return true;
 }
+
+twoPrimes(a,b)
