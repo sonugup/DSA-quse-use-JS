@@ -18,3 +18,17 @@ function yourFirstPattern(n) {
 }
 yourFirstPattern(6)
 
+/*
+Input: 6;
+
+Output:
+
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+
+*/
+
