@@ -24,3 +24,11 @@ function isPrime(n) {
 }
 
 twoPrimes(a,b)
+
+
+/*
+input: 11, 17;
+
+Output:
+true
+*/
