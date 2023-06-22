@@ -9,3 +9,9 @@ function minimumInArray(N,arr){
     }
     console.log(min)
 }
+
+let arr=[1, 2, 3, 4, 5]
+let n=5
+minimumInArray(5,arr)
+
+
