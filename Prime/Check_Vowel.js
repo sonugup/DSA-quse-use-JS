@@ -25,3 +25,4 @@ checkVowel(n, str)
 
 // output:
 // false
+
