@@ -14,6 +14,29 @@ function checkVowel(N, str) {
   
 }
 
+// Or
+
+function checkVowel(N, str) {
+  //write code here
+  let c=0
+  
+  let vowels= ['a', 'e', 'i', 'o', 'u'];
+  for(let char of str){
+    if(vowels.includes(char)){
+      c++
+    }
+  }
+  if(c>0){
+          console.log(true)
+      }else{
+          console.log(false)
+      }
+  
+}
+
+
+
+
 let n=4;
 let str=stvr;
 
