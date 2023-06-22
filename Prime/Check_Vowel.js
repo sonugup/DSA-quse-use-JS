@@ -14,6 +14,10 @@ function checkVowel(N, str) {
   
 }
 
+let n=4;
+let str=stvr;
+
+checkVowel(n, str)
 
 // input: 
 // 4 
