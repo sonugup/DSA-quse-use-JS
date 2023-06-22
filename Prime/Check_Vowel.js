@@ -23,7 +23,7 @@ function checkVowel(N, str) {
   let vowels= ['a', 'e', 'i', 'o', 'u'];
   for(let char of str){
     if(vowels.includes(char)){
-      c++
+      c++;
     }
   }
   if(c>0){
