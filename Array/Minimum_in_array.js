@@ -18,6 +18,5 @@ minimumInArray(5,arr)
 // 5
 // 1 2 3 4 5
 
-
 // output:
 // 1
