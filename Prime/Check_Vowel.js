@@ -13,3 +13,11 @@ function checkVowel(N, str) {
       }
   
 }
+
+
+// input: 
+// 4 
+// stvr
+
+// output:
+// false
