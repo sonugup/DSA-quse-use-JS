@@ -20,3 +20,7 @@ function checkPalindrome(N, str) {
           console.log("No")
       }
 }
+
+var str = "sonu";
+var n=9;
+checkPalindrome(n, str);
