@@ -9,4 +9,5 @@ function theLastDigit(number) {
     }
 }
 
+var N=126;
 theLastDigit(N)
