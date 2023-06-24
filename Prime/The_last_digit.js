@@ -1,4 +1,4 @@
-function theLastDigit(number) {
+function theLastDigit(d, number) {
     // Write code here
     var n=number%10
     // console.log(n)
@@ -10,4 +10,12 @@ function theLastDigit(number) {
 }
 
 var N=126;
-theLastDigit(N)
+var d=3
+theLastDigit(d,N)
+
+
+// input:
+// 3 126;
+
+// output:
+// Divisible
