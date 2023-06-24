@@ -8,3 +8,5 @@ function theLastDigit(number) {
         console.log("Not Divisible")
     }
 }
+
+theLastDigit(N)
