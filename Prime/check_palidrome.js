@@ -21,13 +21,13 @@ function checkPalindrome(N, str) {
       }
 }
 
-var str = "sonu";
+var str = "sonugupta";
 var n=9;
 checkPalindrome(n, str);
 
 // Input: 
 // 9
-// sonu
+// sonugupta
 
 // output:
 // No
