@@ -1,4 +1,3 @@
-
 function evenProductInColumns(N,M, arr){
     //write code here
     for(var i=0; i<M; i++){
