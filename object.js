@@ -28,7 +28,7 @@ let details={
      let low=this.data[0]["total"];
      let name1=this.data[0]["name"];
      for(var i=0; i<this.data.length; i++){
-       let total=this.data[i]["tatal"];
+       let total=this.data[i]["total"];
        if(total<low){
          low=total;
          name1=this.data[i].name;
