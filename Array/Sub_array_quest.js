@@ -1,6 +1,9 @@
 
-Sub array quest II
+// Sub array quest II
 
+// Given an array A with N positive integers.
+//   Count the number of subarrays that start 
+//   and end with an even number.
 
 function subArrQueII(N, A) {
   //write code here
@@ -21,4 +24,6 @@ function subArrQueII(N, A) {
   console.log(count)
 }
 
-let arr = [1, 2, 3, 4];
+let arr = [1, 2, 3, 4 ,5];
+let n=5
+subArrQueII(n, arr)
