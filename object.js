@@ -41,7 +41,7 @@ let details={
 
 
 details.addStudent("Sonu", 80, 70 , 78)
-details.addStudent("arrya", 70, 70 , 58)
+details.addStudent("Arrya", 70, 70 , 58)
 details.addStudent("krish", 80, 90 , 78)
 console.log(details)
 console.log(details.highandlow())
