@@ -10,7 +10,6 @@ let details={
     obj["marks"]=[phy, chem, math];
     obj["total"]=phy+chem+math;
     this.data.push(obj)
-    
     // Write the code here
   },
    highandlow:function(){
