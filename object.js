@@ -35,7 +35,6 @@ let details={
      }
      console.log("name = " + name1 +" low = "+ low)
    }
- 
 };
 
 
