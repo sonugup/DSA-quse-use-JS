@@ -37,7 +37,6 @@ let details={
    }
 };
 
-
 details.addStudent("Sonu", 80, 70 , 78)
 details.addStudent("Arrya", 70, 70 , 58)
 details.addStudent("Krish", 80, 90 , 78)
