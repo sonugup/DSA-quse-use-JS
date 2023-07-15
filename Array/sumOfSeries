@@ -12,5 +12,6 @@ function sumOfSeries(N, X) {
         }
     
 }
+
 sumOfSeries(3, 4)
 
