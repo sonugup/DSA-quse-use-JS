@@ -1,7 +1,7 @@
-Product Of Array
+// Product Of Array
 
 
-function Product_Of_Array(t, n, arr){
+function Product_Of_Array( n, arr){
    
    const output = [];
   let product = 1;
@@ -21,5 +21,5 @@ function Product_Of_Array(t, n, arr){
 }
  let n=5;
 let arr=[1, 2, 3, 4, 5];
-output=120, 60, 40, 30, 24
-Product_Of_Array(t, n, arr)
+// output=120, 60, 40, 30, 24
+Product_Of_Array(n, arr)
