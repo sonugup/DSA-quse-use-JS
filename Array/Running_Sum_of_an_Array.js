@@ -1,4 +1,4 @@
-Running_Sum_of_an_Array
+// Running_Sum_of_an_Array
 
 function Running_Sum_of_an_Array( n, arr){
     let bag="";
