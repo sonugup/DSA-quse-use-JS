@@ -1,0 +1,8 @@
+var lengthOfLastWord = function(s) {
+    if(s == ""){
+        return 0;
+    }
+    var sArr = s.split(" ").filter(function(n){return n});
+    var LastWord = sArr[sArr.length -1];
+    return LastWord.length;
+};
