@@ -1,3 +1,9 @@
+
+// Input: s = "A man, a plan, a canal: Panama"
+// Output: true
+// Explanation: "amanaplanacanalpanama" is a palindrome.
+
+
 var isPalindrome = function(s) {
     // let str=s.split(" ").join("");
    
@@ -23,3 +29,7 @@ var isPalindrome = function(s) {
     }
     return true;
 };
+
+let  s = "A man, a plan, a canal: Panama";
+console.log(isPalindrome(s))
+
