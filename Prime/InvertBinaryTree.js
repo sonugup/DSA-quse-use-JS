@@ -1,4 +1,4 @@
-ar invertTree = function(root) {
+const invertTree = function(root) {
     if(root===null){
         return null
     }
