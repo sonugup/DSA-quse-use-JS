@@ -3,6 +3,16 @@
 
 // You must write an algorithm with O(log n) runtime complexity.
 
+// Example 1:
+
+// Input: nums = [-1,0,3,5,9,12], target = 12
+// Output: 4
+// Explanation: 12 exists in nums and its index is 5
+// Example 2:
+
+// Input: nums = [-1,0,3,5,9,12], target = 6
+// Output: -1
+// Explanation: 6 does not exist in nums so return -1
 
 var search = function(nums, target) {
     let i=0;
@@ -22,3 +32,8 @@ var search = function(nums, target) {
     }
     return -1
 };
+
+
+let  nums = [-1,0,3,5,9,12], target = 12;
+
+search(nums,target)
