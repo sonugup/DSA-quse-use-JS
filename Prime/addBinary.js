@@ -13,15 +13,17 @@
 
 
 const addBinary = (a, b) => {
+  console.log(a, b)
   let c=0;
   let ans="";
 
-  let j=b.length-1;
-  let i=a.length-1;
+  let i=a.length;
+  let j=b.length;
 
+console.log(j, i)
   while(i>=0 || j>=0 || c>0){
-    let ansa=i>=0 ? parseInt(a[i]):0
-    let ansb=j>=0 ? parseInt(b[j]):0
+    let ansa=i>=0 ? parseInt(a[i]):0;
+    let ansb=j>=0 ? parseInt(b[j]):0;
 
     let s=ansa+ansb+c;
 
